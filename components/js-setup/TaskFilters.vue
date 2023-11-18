@@ -4,10 +4,7 @@
 <!-- eslint-disable ts/no-unsafe-member-access -->
 <!-- eslint-disable ts/no-unsafe-call -->
 <script>
-// vue
-import { defineComponent } from 'vue'
-
-export default defineComponent({
+export default {
   emits: ['change-pending-filter'],
   setup(_, { emit }) {
     // filter logic
@@ -24,7 +21,7 @@ export default defineComponent({
       changeFilter,
     }
   },
-})
+}
 </script>
 
 <template>

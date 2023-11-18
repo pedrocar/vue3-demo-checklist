@@ -4,10 +4,7 @@
 <!-- eslint-disable ts/no-unsafe-member-access -->
 <!-- eslint-disable ts/no-unsafe-call -->
 <script>
-// vue
-import { defineComponent } from 'vue'
-
-export default defineComponent({
+export default {
   emits: ['new-task'],
   setup(_, { emit }) {
     // add task logic
@@ -23,7 +20,7 @@ export default defineComponent({
       addTask,
     }
   },
-})
+}
 </script>
 
 <template>

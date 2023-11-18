@@ -4,10 +4,7 @@
 <!-- eslint-disable ts/no-unsafe-member-access -->
 <!-- eslint-disable ts/no-unsafe-call -->
 <script>
-// vue
-import { defineComponent } from 'vue'
-
-export default defineComponent({
+export default {
   props: {
     task: {
       type: Object,
@@ -29,7 +26,7 @@ export default defineComponent({
       checkTask,
     }
   },
-})
+}
 </script>
 
 <template>

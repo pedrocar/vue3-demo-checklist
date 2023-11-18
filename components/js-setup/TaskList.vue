@@ -4,13 +4,10 @@
 <!-- eslint-disable ts/no-unsafe-member-access -->
 <!-- eslint-disable ts/no-unsafe-call -->
 <script>
-// vue
-import { defineComponent } from 'vue'
-
 // components
 import TaskItem from '@/components/ts-script-setup/TaskItem.vue'
 
-export default defineComponent({
+export default {
   components: {
     TaskItem,
   },
@@ -30,7 +27,7 @@ export default defineComponent({
       changeChecked,
     }
   },
-})
+}
 </script>
 
 <template>
