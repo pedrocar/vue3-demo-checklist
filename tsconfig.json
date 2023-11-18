@@ -1,0 +1,21 @@
+{
+  // https://nuxt.com/docs/guide/concepts/typescript
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "moduleResolution": "node",
+    "paths": {
+      "@/types/*": ["./types/*"],
+      "@/components/*": ["./components/*"],
+      "@/services/*": ["./services/*"],
+      "@/composables/*": ["./composables/*"],
+      "@/stores/*": ["./stores/*"]
+      // Add other paths as needed
+    },
+    "allowImportingTsExtensions": true
+  }
+  // "exclude": [
+  //   "./pages/js-options.vue",
+  //   "./components/js-options"
+  // ]
+}
