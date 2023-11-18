@@ -39,7 +39,7 @@ export default {
         title: formattedtaskTitle,
         isChecked: false,
       }
-      tasks.value.unshift(newTask)
+      this.tasks.unshift(newTask)
     },
     changeChecked(event) {
       const selectedTask = this.tasks.find(task => task.id === event.id)
