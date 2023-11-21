@@ -8,7 +8,7 @@ export default {
   emits: ['new-task'],
   setup(_, { emit }) {
     // add task logic
-    const newTaskTitle = ref<string>('')
+    const newTaskTitle = ref('')
 
     function addTask() {
       emit('new-task', newTaskTitle.value)
